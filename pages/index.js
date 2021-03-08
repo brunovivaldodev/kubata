@@ -1,65 +1,151 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <section className="main">
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <header>
+          <nav>
+            <div>
+              <h1>Kubata</h1>
+            </div>
+            <ul>
+              <li><a href="#">Seja Anfitrião</a></li>
+              <li><a href="#">Conheça Angola</a></li>
+              <li><a href="#">Entrar</a></li>
+              <li><a href="#">Cadastrar</a></li>
+            </ul>
+          </nav>
+        </header>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <article>
+          <h2>Descubra Angola Sem Receio De Nada</h2>
+          <h3>1.246.700Km<sup>2</sup> para serem explorados por si</h3>
+          <select name="provicia" id="">
+            <option selected={false} >SELECIONE A PROVÍNCIA</option>
+          </select>
+        </article>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <p>Fenda da Tundavala Huíla</p>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+      </section>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+      <div>
+        <h2>Reserve uma hospedagem. Hóspede viajantes tudo na Kubata</h2>
+      </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      <section>
+        <article>
+          <div>
+            <h2>Seguro,Confortavel e Cômodo</h2>
+            <h3>Arrende sua casa, ou parte dela, com nativos e estrangeiros e Ganhe Dinheiro</h3>
+          </div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </article>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+        <article>
+          <div>
+            <h2>Viva Experiências incríveis em Angola</h2>
+            <h3>Faça viagens por toda Angola, explore as 18 provincías, mais proxímos dos Nativos</h3>
+          </div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </article>
+
+        <article>
+          <div>
+            <h2>Reserva fácil e flexível</h2>
+            <h3>Processo fácil de reserva on-line oferece, oferece uma experiência transparente e sem complicações</h3>
+          </div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <h2>Cidades mais visitadas</h2>
+        <article>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure >
+            <img src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <div>
+            <h2>Faça Parte Da Inovação em Angola</h2>
+            <h3>Serviço inovador na área do Turismo e alojamento em Angola.Seguro, Fácil e Rentável</h3>
+            <div className="btn-group">
+                <a href="">Aluge</a>
+                <a href="">Arrende</a>
+            </div>
+          </div>
+
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h3>Kubata é inovador e Angolano</h3>
+          <div><img src="" alt=""/></div>
+          <h4>Serviço, muito inovador,e posso ter dinheiro sempre,alugando uma parte vazia da casa</h4>
+          <h5>Fábio Komba</h5>
+        </article>
+
+        <article>
+          <h3>Ganhei o dobro do normal</h3>
+          <div><img src="" alt=""/></div>
+          <h4>Ganhei o dobro do normal arrendando meu quarto duas vezes em uma semana</h4>
+          <h5>Etienne Márcio</h5>
+        </article>
+
+        <a href="">Partilhe Connosco Sua Experiência</a>
+      </section>
+
+      <footer></footer>
+    </>
   )
 }
